@@ -5,7 +5,7 @@ dec = int(dec)
 bin = []
 while dec >= 1:
     bin.append(dec % 2)
-    dec = round(dec // 2)
+    dec = dec // 2
 
 bin.reverse()
 
